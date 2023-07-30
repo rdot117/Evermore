@@ -1,0 +1,28 @@
+{
+  "name": "@r_dot117/rx",
+  "version": "1.0.0",
+  "description": "r_dot117's package",
+  "keywords": [
+    "Roblox",
+    "Nevermore",
+    "Lua",
+  ],
+  "bugs": {
+    "url": "https://github.com/rdot117/Evermore/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rdot117/Evermore.git",
+    "directory": "src/package/"
+  },
+  "license": "MIT",
+  "contributors": [
+    "r_dot117"
+  ],
+  "dependencies": {
+    // "@scope/package": "^1.0.0" 
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
