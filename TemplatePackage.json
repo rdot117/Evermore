@@ -1,5 +1,5 @@
 {
-  "name": "@r_dot117/rx",
+  "name": "@r_dot117/package",
   "version": "1.0.0",
   "description": "r_dot117's package",
   "keywords": [
@@ -19,9 +19,7 @@
   "contributors": [
     "r_dot117"
   ],
-  "dependencies": {
-    // "@scope/package": "^1.0.0" 
-  },
+  "dependencies": {},
   "publishConfig": {
     "access": "public"
   }
