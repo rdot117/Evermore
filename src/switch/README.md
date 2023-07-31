@@ -1,2 +1,5 @@
-## UserInputServiceUtils
-Intended to provide an easier time navigating user inputs, regardless of platform
+## Switch
+switch implementation for Roblox
+
+## Syntax
+switch(value, doNotYield, ...) --> function(cases) --> Observable: results

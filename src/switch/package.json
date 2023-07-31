@@ -1,6 +1,6 @@
 {
   "name": "@r_dot117/switch",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "switch implementation for Roblox",
   "keywords": [
     "Roblox",
@@ -12,14 +12,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rdot117/Evermore.git",
+    "url": "https://github.com/rdot117/Evermore.git"
   },
   "license": "MIT",
   "contributors": [
     "r_dot117"
   ],
   "dependencies": {
-    "@quenty/loader": "^6.2.1"
+    "@quenty/loader": "^6.2.1",
+    "@quenty/maid": "^2.5.0",
+    "@quenty/rx": "^7.14.0"
   },
   "publishConfig": {
     "access": "public"
