@@ -1,6 +1,6 @@
 {
   "name": "@r_dot117/userinputserviceutils",
-  "version": "1.0.6",
+  "version": "1.0.9",
   "description": "",
   "keywords": [
     "Roblox",
@@ -12,7 +12,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rdot117/Evermore.git"
+    "url": "https://github.com/rdot117/Evermore.git",
+    "directory": "src/userinputserviceutils"
   },
   "license": "MIT",
   "contributors": [
