@@ -67,6 +67,7 @@ end
 	@param value any
 	@param shouldYield bool
 	@param ... any
+	@return Observable
 ]=]
 
 local function switch(value, shouldYield, ...)
