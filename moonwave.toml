@@ -5,3 +5,7 @@ autoSectionPath = "src"
 [docusaurus]
 onBrokenLinks = "throw"
 onBrokenMarkdownLinks = "warn"
+
+[[classOrder]]
+section = "Switch"
+classes = ["switch", "case"]
