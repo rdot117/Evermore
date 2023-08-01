@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[6186],{66054:e=>{e.exports=JSON.parse('{"functions":[],"properties":[],"types":[],"name":"StaticLegacyLoader","desc":"","private":true,"source":{"line":5,"path":"src/userinputserviceutils/node_modules/@quenty/loader/src/StaticLegacyLoader.lua"}}')}}]);

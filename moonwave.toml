@@ -1,0 +1,7 @@
+gitSourceBranch = "master"
+changelog = true
+autoSectionPath = "src"
+
+[docusaurus]
+onBrokenLinks = "throw"
+onBrokenMarkdownLinks = "warn"

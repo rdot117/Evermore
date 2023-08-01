@@ -1,3 +1,14 @@
+--[=[
+	@class case
+]=]
+
+--[=[
+	@function case
+	@within case
+
+	@param ... any
+	@param compute function
+]=]
 local function case(...)
 	local args = {...}
 	local n = #args

@@ -1,3 +1,32 @@
+--[=[
+	@class switch
+
+	Custom switch implementation for Roblox
+
+	Example usage:
+
+	```lua
+	switch(2)({
+		case(1, function(value)
+			print("I recieved case 1!")
+			return true
+		end),
+
+		case(2, function(value) --> selected case
+			print("I recieved case 2!")
+			return true
+		end),
+
+		case(function(value)
+			print("The value was nil :(")
+			return true
+		end),
+	}):Subscribe(function(returnedValue)
+		print(returnedValue) --> true
+	end)
+	```
+]=]
+
 local require = require(script.Parent.loader).load(script)
 
 local Observable = require("Observable")
@@ -30,6 +59,15 @@ local function verifyCases(cases)
 		end
 	end
 end
+
+--[=[
+	@function switch
+	@within switch
+
+	@param value any
+	@param shouldYield bool
+	@param ... any
+]=]
 
 local function switch(value, shouldYield, ...)
 	local args = table.pack(...)
