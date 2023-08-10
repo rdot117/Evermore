@@ -2,7 +2,7 @@ local require = require(script.Parent.loader).load(script)
 
 local UserInputService = game:GetService("UserInputService")
 
-local Observable = require("Observe")
+local Observable = require("Observable")
 local Maid = require("Maid")
 
 --[=[
@@ -35,7 +35,7 @@ end
 	@return bool
 ]=]
 function UserInputServiceUtils.isKeyboardInput(input)
-	return input.UserInputType == Enum.UserInputType.Keyboard
+	return input == Enum.UserInputType.Keyboard
 end
 
 --[=[
@@ -45,7 +45,7 @@ end
 	@return bool
 ]=]
 function UserInputServiceUtils.isTouchInput(input)
-	return input.UserInputType == Enum.UserInputType.Touch
+	return input == Enum.UserInputType.Touch
 end
 
 return UserInputServiceUtils
