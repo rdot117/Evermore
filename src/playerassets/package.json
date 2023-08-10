@@ -1,0 +1,33 @@
+{
+  "name": "@r_dot117/playerassets",
+  "version": "0.0.1",
+  "description": "Player asset retriever for Roblox",
+  "keywords": [
+    "Roblox",
+    "Nevermore",
+    "Lua"
+  ],
+  "bugs": {
+    "url": "https://github.com/rdot117/Evermore/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rdot117/Evermore.git",
+    "directory": "src/playerassets"
+  },
+  "license": "MIT",
+  "contributors": [
+    "r_dot117"
+  ],
+  "dependencies": {
+    "@quenty/maid": "^2.5.0",
+    "@quenty/remoting": "^6.9.0",
+    "@quenty/rx": "^7.14.0",
+    "@quenty/signal": "^2.4.0",
+    "@quenty/table": "^3.2.0",
+    "@r_dot117/requestutils": "^0.0.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "@r_dot117/requestutils",
+  "version": "0.0.1",
+  "description": "",
+  "keywords": [
+    "Roblox",
+    "Nevermore",
+    "Lua"
+  ],
+  "bugs": {
+    "url": "https://github.com/rdot117/Evermore/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rdot117/Evermore.git",
+    "directory": "src/requestutils"
+  },
+  "license": "MIT",
+  "contributors": [
+    "r_dot117"
+  ],
+  "dependencies": {
+    "@quenty/loader": "^6.2.1",
+    "@quenty/promise": "^6.7.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
