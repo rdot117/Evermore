@@ -2,7 +2,7 @@ const { execSync } = require("child_process")
 const fs = require("fs")
 
 var DEV_STRING = "moonwave dev"
-var PUBLISH_STRING = "moonwave build --public"
+var PUBLISH_STRING = "moonwave build --publish"
 
 var commandString = PUBLISH_STRING
 var codeString = " --code"
