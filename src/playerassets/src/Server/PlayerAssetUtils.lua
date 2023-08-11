@@ -37,7 +37,7 @@ local PlayerAssetUtils = {}
 	Gets all player's catalog items. Returns nil on failure.
 
 	@param player Player
-	@return catalogItems table 
+	@return catalogItems
 ]=]
 function PlayerAssetUtils.getPlayerCatalogItems(player)
 	local catalogItems = {}
@@ -93,7 +93,7 @@ end
 	@param player Player
 	@param cursor string
 	@param previousResults table
-	@return places table
+	@return places
 ]]
 function PlayerAssetUtils.getPlayerPlaces(player, cursor, previousResults)
 	local requestUrl = string.format(PLACES_URL, player.UserId, cursor)
@@ -137,7 +137,7 @@ end
 	Gets all gamepasses attributed to a place. Returns nil on failure.
 
 	@param place table
-	@return gamepasses table
+	@return gamepasses
 ]=]
 function PlayerAssetUtils.getPlaceGamepasses(place)
 	local requestUrl = string.format(GAMEPASS_URL, place.id)
@@ -188,7 +188,7 @@ end
 	Gets all player's gamepasses. Returns nil on failure.
 
 	@param player Player
-	@return gamepasses table
+	@return gamepasses
 ]=]
 function PlayerAssetUtils.getPlayerGamepasses(player)
 	local gamepasses = {}
@@ -218,6 +218,7 @@ end
 	@param player Player
 	@param assetId number
 	@param assetType InfoType
+	@return isOwned
 ]=]
 function PlayerAssetUtils.isAssetOwned(player, assetId, assetType)
 	assert(assetType == Enum.InfoType.Asset or assetType == Enum.InfoType.GamePass, "Bad assetType")

@@ -21,6 +21,7 @@ local RequestUtils = {
 	@param request function
 	@param limit number
 	@param buffer number
+	@return Promise<result>
 ]=]
 function RequestUtils.promiseRequestWithRetries(request, limit, buffer)
 	return Promise.new(function(resolve, reject)
